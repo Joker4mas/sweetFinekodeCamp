@@ -1,0 +1,759 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    /* padding: 1rem 2rem; */
+}
+
+.main-header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.20rem 2rem;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section ul {
+    list-style: none;
+    display: flex;
+}
+
+.road-assistance {
+    display: flex;
+    padding: 1rem;
+}
+
+.right-section ul li {
+    margin-right: 0.80rem;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+}
+
+.right-section .navigation {
+    border-right: 2px solid #ccc;
+}
+
+.road-assistance .icon-r {
+    margin-right: 10px;
+}
+
+.road-assistance {
+    margin-right: 0.5rem;
+}
+
+.flex {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.text-section {
+    width: auto;
+    height: 80%;
+    background: #000;
+    margin-left: -200px;
+}
+
+.text-section {
+    color: #E2E6E9;
+}
+
+#hero-section .image-section {
+    width: 85%;
+}
+
+.image-section {
+    text-align: center;
+    margin: 2em 2em;
+}
+
+.image-section img {
+    width: 60%;
+    height: 65vh;
+}
+
+.our-service {
+    float: left;
+    width: 60%;
+    background: #000;
+    color: #fdfdfc;
+    z-index: 1;
+    margin-left: -12em;
+    padding: 5px;
+}
+
+.our-service-text {
+    justify-content: center;
+    align-items: center;
+}
+
+.our-service-text h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 1.5em;
+}
+
+.our-service-text p {
+    font-size: 15px;
+    align-items: center;
+    margin-top: 10px;
+    text-align: justify;
+    padding-right: 1em;
+    margin-left: 5em;
+    width: 80%;
+}
+
+#hero-section,
+#quotes-section {
+    padding: 1rem 2rem;
+}
+
+.text-section h1 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.orange-btn {
+    background: #FF6433;
+    border-radius: 0.75rem;
+    padding: 1.5rem 2rem;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 3rem;
+    display: inline-block;
+    color: #fff;
+}
+
+.time-section {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.text-section .image-box {
+    width: 8%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-section .time-text {
+    width: 95%;
+}
+
+.time-section img {
+    width: 100%;
+}
+
+.light-grey {
+    color: #939191;
+}
+
+#quote-section {
+    background: #E2E6E9;
+    height: 80%;
+}
+
+.flex {
+    display: flex;
+}
+
+.offer {
+    background: rgba(242, 242, 242, 1);
+    align-items: center;
+    text-align: center;
+}
+
+#diagnostic-offer {
+    display: flex;
+}
+
+#diagnostic-offer {
+    justify-content: center;
+}
+
+.auto-diagnosis-left-service {
+    width: 40%;
+    background: white;
+    padding: 2em;
+    margin: 3em;
+}
+
+.auto-diagnosis-left-service img {
+    height: 40%;
+}
+
+.auto-diagnosis-left-service h2 {
+    text-align: left;
+    margin: 0.4em;
+    font-size: 2em;
+}
+
+.auto-diagnosis-left-service p {
+    text-align: left;
+    margin: 0.4em;
+    line-height: 1.7em;
+    font-size: 1.2em;
+}
+
+.offer-learnX {
+    text-align: left;
+    height: 10%;
+    padding: 2px;
+}
+
+.offer-box-diagno-right {
+    width: 50%;
+    margin: 3em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.box-offer-diag {
+    background: #fff;
+    padding: 4em;
+    text-align: center;
+    margin: 10px 10px;
+    width: 95%;
+}
+
+.box-offer-diag p {
+    font-weight: bold;
+}
+
+.box-offer-diag:hover {
+    transform: scale(1);
+    background: rgb(224, 117, 28);
+}
+
+#grid-1 {
+    background: rgb(224, 117, 28);
+}
+
+#grid-1 {
+    color: #fff;
+}
+
+.left-points {
+    padding: 2em;
+}
+
+.img-workprocess {
+    display: flex;
+}
+
+.img-workprocess img {
+    height: 13vh;
+    padding: 1.4em;
+}
+
+.img-workprocess p {
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+.right-workprocess {
+    padding: 2em;
+}
+
+.left-work-process h2 {
+    padding: 1em;
+    font-size: 2.7em;
+    font-weight: bolder;
+}
+
+.container-diagnose {
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+}
+
+.left-diagnosticts {
+    /* width: 60%; */
+    padding: 2em;
+}
+
+.right-dianostics-text-section {
+    padding: 2.5em;
+}
+
+.right-dianostics-text-section h1 {
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+.right-dianostics-text-section p {
+    margin-top: 3em;
+    color: #ccc9c9;
+    line-height: 1.5em;
+    margin-bottom: 0.8em;
+}
+
+.container-query {
+    width: 100%;
+}
+
+.vehicle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.vehicle img {
+    width: 100%;
+    justify-items: center;
+}
+
+.car1 .car2 {
+    height: 60%;
+}
+
+.query-text-box {
+    height: 57.2%;
+    width: 40%;
+    margin-right: 200px;
+}
+
+.query-text-box {
+    position: absolute;
+    background: #FF6433;
+    align-items: center;
+    flex-direction: column;
+}
+
+.query-text-box {
+    display: flex;
+}
+
+.query-text-box h4 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#us {
+    font-size: 1.7rem;
+    color: #fff;
+    height: 3.9rem;
+    width: 30%;
+    background: #000;
+    border-radius: 0.5em;
+    margin-top: 3rem;
+    margin-right: 10rem;
+}
+
+.touch-section {
+    height: 40%;
+    width: 100%;
+    background: rgba(30, 27, 27, 1);
+}
+
+.container-getService .flex-touch {
+    color: #fdfdfc;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-touch .left-section-touch .right-section-touch {
+    display: flex;
+    justify-content: center;
+}
+
+.left-section-touch {
+    margin: 0.5rem;
+}
+
+.left-section-touch img {
+    margin: 5rem;
+}
+
+.left-section-touch h2 {
+    font-size: 3rem;
+}
+
+.right-section-touch .helpx {
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+.helpx p {
+    color: #939191;
+    font-size: 0.9rem;
+}
+
+.helpx h4 {
+    font-size: 1.54rem;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-footer {
+    background: black;
+}
+
+.bottom-footer .right-section-bottom a {
+    color: #fff;
+}
+
+.right-section-bottom {
+    display: flex;
+    align-items: center;
+}
+
+.right-section-bottom ul {
+    list-style: none;
+    display: flex;
+}
+
+.right-section-bottom ul li {
+    margin-right: 20px;
+}
+
+.right-section-bottom ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.right-section-bottom .para {
+    color: gray;
+    margin-left: 20px;
+}
+
+
+/* mobile view */
+
+@media screen and (max-width:450px) {
+    .main-header-top {
+        flex-direction: column;
+    }
+    .road-assistance {
+        display: none;
+    }
+    .right-section .navigation {
+        border-right: none;
+    }
+    .right-section ul li a {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+    .flex {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    #hero-section .image-section {
+        width: 85%;
+    }
+    .image-section {
+        text-align: center;
+        margin: 2em 2em;
+    }
+    .image-section img {
+        width: 100%;
+        height: 65vh;
+    }
+    .our-service {
+        width: 100%;
+        background: #000;
+        color: #fdfdfc;
+        padding: 5px;
+    }
+    .our-service {
+        align-items: center;
+        margin-right: -5em;
+    }
+    .our-service-text {
+        justify-content: center;
+        align-items: center;
+    }
+    .our-service-text h1 {
+        font-size: 3em;
+        font-weight: bold;
+        margin-top: 1.5em;
+    }
+    .our-service-text p {
+        font-size: 15px;
+        align-items: center;
+        margin-top: 10px;
+        text-align: justify;
+        padding-right: 1em;
+        margin-left: 5em;
+        width: 80%;
+    }
+    #diagnostic-offer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .offer-box-diagno-right {
+        justify-content: center;
+    }
+    .auto-diagnosis-left-service {
+        width: 90%;
+        background: white;
+        padding: 2em;
+        margin: 3em;
+        justify-content: center;
+    }
+    .auto-diagnosis-left-service img {
+        height: 35vh;
+    }
+    .auto-diagnosis-left-service h2 {
+        text-align: left;
+        margin: 0.4em;
+        font-size: 1.5em;
+    }
+    .offer-learnX {
+        text-align: left;
+        height: 10%;
+        padding: 2px;
+    }
+    .offer-learnX img {
+        height: 5vh;
+    }
+    .offer-box-diagno-right {
+        margin-right: 5px;
+        width: 85%;
+    }
+    .box-offer-diag {
+        background: #fff;
+        padding: 2em;
+        text-align: center;
+        margin: 10px 10px;
+        width: 80%;
+    }
+    .img-workprocess p {
+        padding: 1.5em;
+        font-size: 1em;
+    }
+    .right-workprocess {
+        padding: 1em;
+    }
+    .left-work-process h2 {
+        padding: 1em;
+        font-size: 2em;
+        font-weight: bolder;
+    }
+    .right-workprocess img {
+        height: 50vh;
+        width: 100%;
+    }
+    .left-diagnosticts img {
+        height: 40vh;
+        width: 100%;
+    }
+    .right-dianostics-text-section {
+        padding: 2em;
+    }
+    .right-dianostics-text-section h1 {
+        font-size: 2.5em;
+        font-weight: bolder;
+    }
+    .right-dianostics-text-section p {
+        margin-top: 3em;
+        color: #ccc9c9;
+        line-height: 1em;
+    }
+    .vehicle img {
+        display: none;
+    }
+    .vehicle .car1 .car2 img {
+        /* width: 100%; */
+    }
+    .query-text-box {
+        display: none;
+    }
+    .query-text-box {
+        height: 30%;
+        width: 60%;
+    }
+    .query-text-box {
+        position: absolute;
+        background: #FF6433;
+    }
+    .query-text-box h4 {
+        font-size: 1rem;
+        color: #fff;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .query-text-box #us {
+        font-size: 1rem;
+        color: #fff;
+        height: 2.5rem;
+        width: 60%;
+        background: #000;
+        border-radius: 0.5em;
+        margin-top: 20px;
+        margin-right: 15px;
+    }
+    .left-section-touch h2 {
+        font-size: 1.4rem;
+        text-align: center;
+        width: 50%;
+    }
+    .right-section-touch .helpx {
+        /* margin: 0.5rem;
+        padding: 0.5rem; */
+    }
+    .helpx p {
+        color: #939191;
+        font-size: 0.5rem;
+    }
+    .helpx h4 {
+        font-size: 1rem;
+    }
+    .right-section-bottom ul {
+        display: none;
+    }
+    .right-section-bottom .para {
+        color: gray;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 25px;
+    }
+    .log-bottom {
+        margin-top: 8px;
+    }
+}
+
+
+/* tablet view */
+
+@media screen and (max-width:770px) {
+    .container {
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        padding: 0.5rem 1rem;
+    }
+    .main-header {
+        flex-direction: column;
+    }
+    .road-assistance {
+        display: none;
+    }
+    .right-section .navigation {
+        border-right: none;
+    }
+    .image-section {}
+    #hero-section,
+    #quote-section {
+        padding: 1rem 2rem;
+    }
+    .image-section img {
+        height: 65vh;
+    }
+    .text-section h1 {
+        font-size: 3rem;
+        font-weight: bolder;
+    }
+    .text-section .image-box {
+        width: 10%;
+    }
+    #quote-section .left-section-quote h1 {
+        font-size: 2rem;
+    }
+    #quote-section .left-section-quote .image-box {
+        width: 10%;
+        margin-right: 1rem;
+    }
+    #process-section ul li {
+        margin-bottom: 0.5rem;
+        margin-right: 2rem;
+    }
+    #quote-section .process-section .image-box img {
+        height: 2vh;
+    }
+    .process-section h2 {
+        margin-top: 10px;
+        font-weight: bolder;
+        margin-left: 20px;
+    }
+    .process-section p {
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .flex-box-service-offer {
+        width: 20%;
+        height: 140px;
+        margin: 5px 5px 0;
+        background: white;
+        transition: 0.58s;
+        text-align: center;
+    }
+    .lexrn {
+        margin-left: 110px;
+    }
+    .vehicle img {
+        height: 27vh;
+    }
+    .query-text-box {
+        /* height: 27%;
+        width: 35%; */
+    }
+    .query-text-box h4 {
+        /* font-size: 20px;
+        margin-right: 10px; */
+    }
+    .query-text-box #us {
+        font-size: 1rem;
+        color: #fff;
+        height: 2rem;
+        width: 40%;
+        background: #000;
+        border-radius: 0.5em;
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+    .flex-brand .flex-box-service-brand-2 {
+        display: none;
+    }
+    .bottom-img-customerRes {
+        display: none;
+    }
+    .OurService h1 {
+        /* font-size: 0.5rem;
+        text-align: center; */
+    }
+    .right-section-bottom ul {
+        list-style: none;
+        display: flex;
+    }
+    .right-section-bottom ul {
+        list-style: none;
+        display: none;
+    }
+}
+
+display: none;
+
+}
+
+}

@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section ul {
+    list-style: none;
+    display: flex;
+}
+
+.road-assistance {
+    display: flex;
+    padding: 1rem;
+}
+
+.right-section ul li {
+    margin-right: 0.80rem;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+}
+
+.right-section .navigation {
+    border-right: 2px solid #ccc;
+}
+
+.road-assistance .icon-r {
+    margin-right: 10px;
+}
+
+.road-assistance {
+    margin-right: 0.5rem;
+}
+
+#hero-section {
+    display: flex;
+}
+
+.flex-diagnostic {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+}
+
+.aligned-offer {
+    background: #e9e6e6;
+    /* width: 100%; */
+
+}
+
+.aligned-offer {
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.aligned-offer h4 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.box-align-center {
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.offer-box-service {
+    align-items: center;
+    margin-top: 20px;
+}
+
+.flex-box-offer-X {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.flex-box-offer-X {
+    width: 90%;
+    height: 15vh;
+    margin: 20px;
+    background: white;
+    margin-left: 5px;
+}
+
+.flex-box-offer-X img {
+    height: 20%;
+}
+
+.flex-box-offer-X img {
+    text-align: center;
+}
+
+
+
+#service-section .flex {
+    display: flex;
+}
+
+#service-section li {
+    list-style: none;
+    margin-top: 3rem;
+    padding: 5px;
+}
+
+#service-section h5 {
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+#hero-section .offer-services-left {
+    width: 60%;
+}
+
+.right-section-car {
+    padding: 15px;
+    margin-left: 2rem;
+
+}
+
+.text-box-quote {
+    text-align: start;
+    padding-left: 3px;
+}
+
+.text-box-quote p {
+    font-size: 0.8rem;
+}
+
+
+#hero-section .image-section {
+    width: 45%;
+}
+
+.right-section-text-servi {
+    text-align: justify;
+    width: 60;
+}
+
+.right-section-text-servi h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: justify;
+
+}
+
+.image-section img {
+    height: 35%;
+    width: 225%;
+}
+
+.diagnos {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.image-box img {
+    height: 30%;
+}
+
+#mec {
+    margin-left: 12px;
+}
+
+.mec-man {
+    padding: 2px;
+}
+
+.right-section-car {
+    width: 80%;
+    padding: 0 25px;
+}
+
+.container-querry {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+}
+
+.vehicle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.vehicle img {
+    width: 100%;
+    justify-items: center;
+}
+
+.car1 .car2 {
+    height: 40%;
+
+}
+
+.query-text-box {
+    height: 51.9%;
+    width: 50%;
+}
+
+.query-text-box {
+    position: absolute;
+    background: #FF6433;
+    align-items: center;
+}
+
+.query-text-box {
+    display: flex;
+}
+
+.query-text-box h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.query-text-box #us {
+    font-size: 1.7rem;
+    color: #fff;
+    height: 3.7rem;
+    width: 45%;
+    background: #000;
+    border-radius: 0.5em;
+    margin-top: 3rem;
+    margin-right: 10rem;
+}
+
+
+
+
+.touch-section {
+    height: 40%;
+    width: 100%;
+    background: rgba(30, 27, 27, 1);
+}
+
+.container-getService .flex-touch {
+    color: #fdfdfc;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-touch .left-section-touch .right-section-touch {
+    display: flex;
+    justify-content: center;
+}
+
+.left-section-touch {
+    margin: 0.5rem;
+}
+
+.left-section-touch img {
+    margin: 5rem 1rem;
+}
+
+.left-section-touch h2 {
+    font-size: 3rem;
+}
+
+.right-section-touch .helpx {
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+.helpx p {
+    color: #939191;
+    font-size: 0.9rem;
+}
+
+.helpx h4 {
+    font-size: 1.54rem;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-footer {
+    background: black;
+}
+
+.bottom-footer .right-section-bottom a {
+    color: #fff;
+}
+
+.right-section-bottom {
+    display: flex;
+    align-items: center;
+}
+
+.right-section-bottom ul {
+    list-style: none;
+    display: flex;
+}
+
+.right-section-bottom ul li {
+    margin-right: 20px;
+}
+
+.right-section-bottom ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.right-section-bottom .para {
+    color: gray;
+    margin-left: 20px;
+}
+
+/* Mobile view*/
+@media screen and (max-width:450px) {
+    .main-header {
+        flex-direction: column;
+    }
+
+    .right-section ul li a {
+        text-decoration: none;
+        color: #000;
+        font-size: 15px;
+    }
+
+    .right-section ul {
+        list-style: none;
+        flex-direction: column;
+    }
+
+    .right-section-bottom ul {
+        display: none;
+    }
+}
+
+/* Tablet view */
+@media screen and (max-width:770px) {
+    .right-section ul li a {
+        text-decoration: none;
+        color: #000;
+        font-size: 15px;
+    }
+
+    .query-text-box {
+        height: 66.5%;
+        width: 50%;
+    }
+
+    .touch-section {
+        height: 15%;
+        width: 100%;
+        background: rgba(30, 27, 27, 1);
+    }
+
+    .left-section-touch h2 {
+        font-size: 2.5rem;
+        margin-left: 5px;
+    }
+
+    .left-section-touch img {
+        margin: 3rem 1rem;
+    }
+
+    .right-section-touch .helpx {
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .right-section-bottom ul li a {
+        text-decoration: none;
+        color: #000;
+        font-size: 15px;
+    }
+
+}
